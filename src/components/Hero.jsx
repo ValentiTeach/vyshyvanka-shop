@@ -1,12 +1,12 @@
 // src/components/Hero.jsx
+import heroBg from '../assets/images/Main.jpg';
 
 export default function Hero({ onShopClick }) {
   return (
     <section className="hero" aria-label="Головний банер">
-      {/* Background image placeholder — replace with real photo */}
       <img
         className="hero__bg-img"
-        src="https://picsum.photos/seed/hero-vysh/1600/900"
+        src={heroBg}
         alt=""
         aria-hidden="true"
         loading="eager"
@@ -15,18 +15,18 @@ export default function Hero({ onShopClick }) {
 
       <div className="hero__content">
         <div className="hero__text">
-          <p className="hero__label">Колекція 2025</p>
+          <p className="hero__label">Коломия · Колекція 2025</p>
 
           <h1 className="hero__title">
-            Справжня<br />
+            Сучасна<br />
             <em>вишиванка</em> —<br />
-            серце України
+            гордість України
           </h1>
 
           <p className="hero__desc">
-            Ручна вишивка майстрів з усіх куточків України.
-            Кожна сорочка — це неповторний виріб, що зберігає
-            традиції та передає тепло рук майстра.
+            Магазин у Коломиї, де кожна вишиванка — це живе мистецтво.
+            Якісні тканини, автентичні орнаменти та тепло
+            майстринь Прикарпаття у кожному стібку.
           </p>
 
           <div className="hero__actions">
@@ -38,7 +38,7 @@ export default function Hero({ onShopClick }) {
               </svg>
             </button>
             <button className="btn-secondary">
-              Про наших майстрів
+              Про наш магазин
             </button>
           </div>
         </div>
@@ -54,8 +54,8 @@ export default function Hero({ onShopClick }) {
           <div className="hero__stat-label">Майстрів-вишивальниць</div>
         </div>
         <div className="hero__stat">
-          <div className="hero__stat-num">12</div>
-          <div className="hero__stat-label">Регіонів України</div>
+          <div className="hero__stat-num">Коломия</div>
+          <div className="hero__stat-label">Прикарпаття</div>
         </div>
         <div className="hero__stat">
           <div className="hero__stat-num">8</div>
