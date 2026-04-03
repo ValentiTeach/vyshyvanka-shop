@@ -1,12 +1,22 @@
 // src/data/products.js
-// Тимчасові дані — замінити на реальний API / Supabase
+import imgProduct1  from '../assets/images/Product1.jpg';
+import imgProduct2  from '../assets/images/Product2.jpg';
+import imgProduct3  from '../assets/images/Product3.jpg';
+import imgProduct4  from '../assets/images/Product4.jpg';
+import imgProduct5  from '../assets/images/Product5.jpg';
+import imgProduct6  from '../assets/images/Product6.jpg';
+import imgProduct7  from '../assets/images/Product7.jpg';
+import imgProduct8  from '../assets/images/Product8.jpg';
+import imgProduct9  from '../assets/images/Product9.jpg';
+import imgProduct10 from '../assets/images/Product10.jpg';
+import imgProduct12 from '../assets/images/Product12.jpg';
 
 export const CATEGORIES = [
-  { id: 'all',        label: 'Всі товари' },
-  { id: 'women',      label: 'Жінкам' },
-  { id: 'men',        label: 'Чоловікам' },
-  { id: 'children',   label: 'Дітям' },
-  { id: 'accessories',label: 'Аксесуари' },
+  { id: 'all',         label: 'Всі товари' },
+  { id: 'women',       label: 'Жінкам' },
+  { id: 'men',         label: 'Чоловікам' },
+  { id: 'children',    label: 'Дітям' },
+  { id: 'accessories', label: 'Аксесуари' },
 ];
 
 export const REGIONS = [
@@ -36,8 +46,7 @@ export const products = [
     oldPrice: null,
     badge: 'new',
     sizes: ['XS','S','M','L','XL'],
-    image: 'https://picsum.photos/seed/vysh1/400/550',
-    isWishlisted: false,
+    image: imgProduct1,
   },
   {
     id: 2,
@@ -49,8 +58,7 @@ export const products = [
     oldPrice: 2900,
     badge: 'sale',
     sizes: ['S','M','L','XL','XXL'],
-    image: 'https://picsum.photos/seed/vysh2/400/550',
-    isWishlisted: false,
+    image: imgProduct2,
   },
   {
     id: 3,
@@ -62,8 +70,7 @@ export const products = [
     oldPrice: null,
     badge: 'handmade',
     sizes: ['XS','S','M','L'],
-    image: 'https://picsum.photos/seed/vysh3/400/550',
-    isWishlisted: false,
+    image: imgProduct3,
   },
   {
     id: 4,
@@ -75,8 +82,7 @@ export const products = [
     oldPrice: null,
     badge: 'new',
     sizes: ['98','104','110','116','122','128'],
-    image: 'https://picsum.photos/seed/vysh4/400/550',
-    isWishlisted: false,
+    image: imgProduct4,
   },
   {
     id: 5,
@@ -88,8 +94,7 @@ export const products = [
     oldPrice: null,
     badge: null,
     sizes: ['XS','S','M','L','XL'],
-    image: 'https://picsum.photos/seed/vysh5/400/550',
-    isWishlisted: false,
+    image: imgProduct5,
   },
   {
     id: 6,
@@ -101,8 +106,7 @@ export const products = [
     oldPrice: null,
     badge: 'handmade',
     sizes: ['M','L','XL','XXL'],
-    image: 'https://picsum.photos/seed/vysh6/400/550',
-    isWishlisted: false,
+    image: imgProduct6,
   },
   {
     id: 7,
@@ -114,8 +118,7 @@ export const products = [
     oldPrice: null,
     badge: 'new',
     sizes: ['one-size'],
-    image: 'https://picsum.photos/seed/vysh7/400/550',
-    isWishlisted: false,
+    image: imgProduct7,
   },
   {
     id: 8,
@@ -127,8 +130,7 @@ export const products = [
     oldPrice: 3100,
     badge: 'sale',
     sizes: ['S','M','L','XL'],
-    image: 'https://picsum.photos/seed/vysh8/400/550',
-    isWishlisted: false,
+    image: imgProduct8,
   },
   {
     id: 9,
@@ -140,8 +142,7 @@ export const products = [
     oldPrice: null,
     badge: null,
     sizes: ['98','104','110','116','122'],
-    image: 'https://picsum.photos/seed/vysh9/400/550',
-    isWishlisted: false,
+    image: imgProduct9,
   },
   {
     id: 10,
@@ -153,8 +154,7 @@ export const products = [
     oldPrice: null,
     badge: 'handmade',
     sizes: ['S/M','L/XL'],
-    image: 'https://picsum.photos/seed/vysh10/400/550',
-    isWishlisted: false,
+    image: imgProduct10,
   },
   {
     id: 11,
@@ -166,8 +166,7 @@ export const products = [
     oldPrice: null,
     badge: 'new',
     sizes: ['S','M','L','XL','XXL','3XL'],
-    image: 'https://picsum.photos/seed/vysh11/400/550',
-    isWishlisted: false,
+    image: imgProduct10, // використовується imgProduct10 — Product11.jpg відсутній
   },
   {
     id: 12,
@@ -179,8 +178,7 @@ export const products = [
     oldPrice: null,
     badge: null,
     sizes: ['XS','S','M','L'],
-    image: 'https://picsum.photos/seed/vysh12/400/550',
-    isWishlisted: false,
+    image: imgProduct12,
   },
 ];
 
