@@ -10,7 +10,6 @@ const NAV_LINKS = [
   { label: 'Про нас',    href: '#about',   category: null },
 ];
 
-// Simple inline SVG icons
 const IconSearch = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
     <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
@@ -57,8 +56,8 @@ export default function Header({ onCategoryClick, onSearchOpen }) {
         <a className="header__logo" href="/">
           <LogoEmblem />
           <div className="header__logo-text">
-            <span className="header__logo-name">Вишиванка</span>
-            <span className="header__logo-sub">Традиційний стиль</span>
+            <span className="header__logo-name">Сучасна вишиванка</span>
+            <span className="header__logo-sub">Коломия · з любов'ю до України</span>
           </div>
         </a>
 
