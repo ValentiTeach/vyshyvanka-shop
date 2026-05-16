@@ -72,7 +72,7 @@ export default function Footer() {
             {/* Address */}
             <div className="footer__contact-row">
               <IconPin />
-              <span>м. Коломия, Івано-Франківська обл.</span>
+              <span>м. Коломия, Вул. Мазепи 79 </span>
             </div>
 
             {/* Phones */}
