@@ -15,7 +15,7 @@ export default function Hero({ onShopClick }) {
 
       <div className="hero__content">
         <div className="hero__text">
-          <p className="hero__label">Коломия · Колекція 2025</p>
+          <p className="hero__label">Коломия · Колекція </p>
 
           <h1 className="hero__title">
             Сучасна<br />
@@ -46,20 +46,17 @@ export default function Hero({ onShopClick }) {
 
       <div className="hero__stats">
         <div className="hero__stat">
-          <div className="hero__stat-num">350+</div>
+          <div className="hero__stat-num">150+</div>
           <div className="hero__stat-label">Унікальних моделей</div>
         </div>
-        <div className="hero__stat">
-          <div className="hero__stat-num">47</div>
-          <div className="hero__stat-label">Майстрів-вишивальниць</div>
-        </div>
+    
         <div className="hero__stat">
           <div className="hero__stat-num">Коломия</div>
           <div className="hero__stat-label">Прикарпаття</div>
         </div>
         <div className="hero__stat">
-          <div className="hero__stat-num">8</div>
-          <div className="hero__stat-label">Років традиції</div>
+          <div className="hero__stat-num"> З 2010 року </div>
+          <div className="hero__stat-label"> на ринку праці</div>
         </div>
       </div>
     </section>
