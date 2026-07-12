@@ -26,9 +26,10 @@ const IconInsta = () => (
   </svg>
 );
 
-const IconFb = () => (
+const IconTelegram = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+    <path d="M22 2L11 13"/>
+    <path d="M22 2l-7 20-4-9-9-4 20-7z"/>
   </svg>
 );
 
@@ -94,8 +95,8 @@ export default function Footer() {
               <a href="#" className="footer__social-link" aria-label="Instagram">
                 <IconInsta />
               </a>
-              <a href="#" className="footer__social-link" aria-label="Facebook">
-                <IconFb />
+              <a href="https://t.me/+iH1zuHEcVfg5Mzky" className="footer__social-link" aria-label="Telegram">
+                <IconTelegram />
               </a>
               <a
                 href="https://www.tiktok.com/@suchasna_vyshyvanka?_r=1&_t=ZS-94u2LGj6dEe"
